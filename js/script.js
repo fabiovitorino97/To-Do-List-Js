@@ -46,10 +46,10 @@ function organizeTasks() {
 
         // Defina a ordem de prioridade desejada aqui
         var priorityOrder = [
-            "urgent-important",
-            "urgent",
-            "important",
-            "not-urgent-not-important"
+            "UI",
+            "U",
+            "I",
+            "NU/NI"
         ];
 
         return priorityOrder.indexOf(priorityA) - priorityOrder.indexOf(priorityB);
