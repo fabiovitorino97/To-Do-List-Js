@@ -8,19 +8,11 @@ Bem-vindo à To-Do List, uma aplicação web simples para gerenciar suas tarefas
 - Organize as tarefas por urgência e importância.
 - Exclua tarefas facilmente.
 
-## Demonstração
-
-Veja a aplicação em ação [aqui](#) (substitua com o link do GitHub Pages quando disponível).
-
-## Capturas de Tela
-
-(Inclua capturas de tela da aplicação, se desejar)
-
 ## Como Usar
 
 1. Clone o repositório:
    
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/fabiovitorino97/To-Do-List-Js.git
 
 2. Abra o arquivo `index.html` no seu navegador.
 
@@ -28,7 +20,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 ## GitHub Pages
 
-Você pode acessar a versão hospedada da To-Do List no GitHub Pages [aqui](#) (substitua com o link do GitHub Pages quando disponível).
+Você pode acessar a versão hospedada da To-Do List no [GitHub Pages aqui](https://fabiovitorino97.github.io/To-Do-List-Js/).
 
 ## Contribuição
 
