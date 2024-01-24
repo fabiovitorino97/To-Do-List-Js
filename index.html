@@ -1,0 +1,38 @@
+<!-- Arquivo HTML para a To-Do List -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <!-- Contêiner principal -->
+    <div class="container">
+        <!-- Título da aplicação -->
+        <h1>To-Do List</h1>
+        <!-- Campo de entrada de tarefas -->
+        <input type="text" id="taskInput" placeholder="Adicione uma tarefa">
+        <!-- Seleção de prioridade -->
+        <div class="priority-container">
+            <label for="priority">Prioridade:</label>
+            <select id="priority">
+                <option value="urgent-important">Urgente e Importante</option>
+                <option value="urgent">Urgente</option>
+                <option value="important">Importante</option>
+                <option value="not-urgent-not-important">Não Urgente nem Importante</option>
+            </select>
+        </div>
+        <!-- Botão para adicionar tarefas -->
+        <button onclick="addTask()">Adicionar</button>
+        <!-- Botão para organizar tarefas -->
+        <button id="organizeBtn" onclick="organizeTasks()">Organizar</button>
+        <!-- Lista de tarefas -->
+        <ul id="taskList"></ul>
+    </div>
+    <!-- Link para o arquivo JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
